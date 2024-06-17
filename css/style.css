@@ -49,7 +49,6 @@ body {
 
 img {
     clip-path: circle();
-    width: 50%;
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
@@ -58,11 +57,18 @@ img {
 #about-me-header {
     /* TODO: Add gradient text*/
 
+    /* #c3b5f7 for first color 
+*  #559ef2 for second */
+    background: linear-gradient(215deg, #c3b5f7, #559ef2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rubik", sans-serif;
     font-size: 10vh;
+    font-variant: small-caps slashed-zero;
     text-align: center;
-    color: White; 
+    color: White;
     text-wrap: pretty;
-    /* margin-top: -20vh; */
+    margin-top: 5vh;
 }
 
 .about-me {

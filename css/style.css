@@ -1,0 +1,46 @@
+body {
+
+    background: lightpurple;
+    font: 18px Arial, sans-serif;
+    height: 100vh;
+}
+
+/* h1 { */
+/*     font-size: 10vh; */
+/*     text-align: center; */
+/*     text-wrap: pretty; */
+/*     margin-top: -20vh; */
+/* } */
+
+img {
+    clip-path: circle();
+    width: 50%;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me-header {
+    /* TODO: Add gradient text*/
+
+    font-size: 10vh;
+    text-align: center;
+    color: White; 
+    text-wrap: pretty;
+    /* margin-top: -20vh; */
+}
+
+.about-me {
+    margin-top: 20vh;
+    display: flex;
+
+}
+
+#about-text {
+    color: BlueViolet;
+    text-align: center;
+    right: 5vw;
+    margin-top: 10vh;
+    position: relative;
+    font-size: 20px;
+}

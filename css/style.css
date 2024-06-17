@@ -12,6 +12,41 @@ body {
 /*     margin-top: -20vh; */
 /* } */
 
+.background {
+    position: fixed;
+    top: 0;
+    transform: rotate(80deg);
+    left: 0;
+}
+
+.wave {
+  position: absolute;
+  opacity: .4;
+  width: 1500px;
+  height: 1300px;
+  margin-left: -15vw;
+  margin-top: -250px;
+  border-radius: 43%;
+}
+
+
+.wave.-first {
+  animation: rotate 7000ms infinite linear;
+  opacity: .1;
+  background: #0af;
+}
+
+.wave.-second {
+  animation: rotate 3000ms infinite linear;
+  opacity: .1;
+  background: black;
+}
+
+.wave.-third {
+  animation: rotate 7500ms infinite linear;
+  background-color: #77daff;
+}
+
 img {
     clip-path: circle();
     width: 50%;

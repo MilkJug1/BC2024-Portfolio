@@ -64,8 +64,45 @@ img {
 
 }
 
+.navbar {
+    background-color: #333;
+    position: sticky;
+    /* Apply the sticky positioning */
+    top: 0;
+    /* Stick the element to the top of the viewport */
+    z-index: 100;
+    /* Ensure the navbar is above other content */
+}
+
+.navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.navbar ul {
+    align-items: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
 
 
+.navbar li a:hover {
+  background-color: #111;
+}
 
 #about-me-header {
     /* TODO: Add gradient text*/

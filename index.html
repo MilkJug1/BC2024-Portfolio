@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,40 +23,70 @@
 </head>
 
 <body>
+    <!-- Weird Wave background-->
     <div class="background">
         <div class="wave -first"></div>
         <div class="wave -second"></div>
         <div class="wave -third"></div>
     </div>
-    <h1 class="about-me" , id="about-me-header">Hello! Welcome to my Portfolio!</h1>
-    <div class="about-me">
-        <img src="https://placehold.co/600x400/EEE/31343C"> <!-- Make sure to add my image here -->
-        <p id="about-text" class="about-me-text">Hello there! My name is Michael, or as I am also known as, <span
-                class='special'>MilkJug</span>! I'm a teenager programmer from Indiana! Scroll down to find out more
-            about me!</p>
-        <!-- Change the intro here, do more of a broad introduction of me.-->
-    </div>
 
-    <div class="about-me" id="about-me-continued">
-        <h2 class="about-me" id="first-text">Who am I?</h2>
-        <p id="first-text-para"> I am an asipring programming and a person who has a major interest in Mechanical
-            Engineering and Computer Engineering. I learned programming when I was 10 and have always been working on my
-            skills since.</p>
-        <p>I love working out, I have a big intrest in sports, and I love working on projects. I always am working on
-            projects when I have freetime and I always love learning about new things and I always am doing new things
-            to challenge myself.</p>
-        <p></p>
+    <div class="main-page">
+        <div class="about-me">
+            <div class="intro">
+                <div id="heading">
+                    <h3 class="about-me" , id="about-me-header">Hello! Welcome to my Portfolio!</h1>
+                </div>
 
-        <h2 class="about-me" id="second-text"></h2>
-        <p class="about-me" id="second-text-para"></p>
+                <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
+
+                <div id="about">
+                    <!-- <img src="https://placehold.co/600x400/EEE/31343C"> <!-- Make sure to add my image here -->
+                    <p id="about-text" class="about-me-text">Hello there! My name is Michael, or as I am also known
+                        as,
+                        <span class='special'>MilkJug</span>!
+                    </p>
+                    <p class="about-me-text"> I'm a teenager programmer from Indiana! Scroll down to
+                        find out more about me!
+                    </p>
+                </div>
+            </div>
+
+            <div class="continued">
+                <section class="first-para">
+
+                    <h2 id="first-para-header">Who am I?</h2>
+                    <p> I am an asipring programming and a person who has a major interest in
+                        Mechanical
+                        Engineering and Computer Engineering. I learned programming when I was 10 and have always been
+                        working on my
+                        skills since.</p>
+                    <p>I love working out, I have a big intrest in sports, and I love working on projects. I always am
+                        working on
+                        projects when I have freetime and I always love learning about new things and I always am doing
+                        new
+                        things
+                        to challenge myself.</p>
+                    <p></p>
+
+                </section>
+
+                <section class="second-para">
+                    <h2 id="second-para-header"></h2>
+                    <p id="second-text-para"></p>
+                </section>
+            </div>
+
+        </div>
     </div>
 
     <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="indepth.html">About me: Extended</a></li>
-        </ul>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="indepth.html">About me: Extended</a></li>
+            </ul>
+        </div>
     </nav>
 </body>
 

@@ -1,0 +1,36 @@
+/* TODO: Change color for the 'waves'*/
+@import url('animation.css');
+
+.wave {
+    position: absolute;
+    opacity: .4;
+    width: 1500px;
+    height: 1300px;
+    margin-left: -15vw;
+    margin-top: -250px;
+    border-radius: 43%;
+    z-index: 0;
+}
+
+.wave.-first {
+    animation: rotate 7000ms infinite linear;
+    opacity: .1;
+    position: fixed;
+    background: #1c0236;
+    z-index: 0;
+}
+
+.wave.-second {
+    animation: rotate 3000ms infinite linear;
+    opacity: .2;
+    background: black;
+    position: fixed;
+    z-index: 0;
+}
+
+.wave.-third {
+    animation: rotate 7500ms infinite linear;
+    background-color: #4b057a;
+    position: fixed;
+    z-index: 0;
+}

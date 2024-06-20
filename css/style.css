@@ -53,7 +53,9 @@ hr {
     width: 40vw;
 }
 
-
+.first-img, .second-img {
+    clip-path: circle();
+}
 
 #about-pic {
     clip-path: circle();

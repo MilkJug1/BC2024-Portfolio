@@ -14,7 +14,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <script defer src="js/main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,13 +35,12 @@
                     <h3 class="about-me" , id="about-me-header">Hello! Welcome to my Portfolio!</h1>
                 </div>
 
-                <img id="about-pic" src="https://placehold.co/600x400/EEE/31343C">
+                <img id="about-pic" src="src/img/Image-2.jpg">
                 <!-- Make sure to add my image here -->
 
                 <div id="about">
-                    <p id="about-text" class="about-me-text">Hello there! My name is Michael, or as I am also known
-                        as,
-                        <span class='special'>MilkJug</span>!
+                    <p id="about-text" class="about-me-text">Hello there! My name is Michael, or <span
+                            class='special'>MilkJug</span>!
                     </p>
                     <p class="about-me-text"> I'm a teenager programmer from Indiana! Scroll down to
                         find out more about me!
@@ -50,6 +48,17 @@
                 </div>
             </div>
             <hr>
+            <nav class="navbar">
+                <div class="links">
+                    <ul>
+                        <li><a href="#about-me-header">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="indepth.html">About me: Extended</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                    </ul>
+                </div>
+            </nav>
+
             <div class="continued">
                 <div class="row-1">
 
@@ -57,12 +66,12 @@
                         <img class="first-img-para" src="https://placehold.co/600x400/EEE/31343C" alt="">
                     </div>
 
-                    <div class="first-para">
+                    <div class="first-para fade-in-element">
                         <h2 id="first-para-header">Who am I?</h2>
-                        <p> I am an asipring programmer and a person who has a major interest in
+                        <p>
+                            I am an aspiring programmer and a person who has a major interest in
                             Mechanical Engineering and Computer Engineering. I learned programming when I was 10 and
-                            have
-                            always been working on my skills since.
+                            have always been working on my skills since.
                             I'm from Martinsville, Indiana, and I love sports, animals, working out, and I love doing
                             projects. In fact, the way I've learned is mainly from doing projects!
                             Scroll down to see all projects publicly available.
@@ -71,24 +80,22 @@
                             You can always know that I make
                             all of my software with FOSS projects. I love to give back to the communuity I work for :).
                             Even
-                            when I don't fully work on them. I'm a very big privacy oriented person.</p>
+                                when I don't fully work on them. I'm a very big privacy oriented person. I have my own <a class="special" href="https://milkjug1.github.io/" target="_blank">blog site!</a> Come check it out to see another side of me!
+                        </p>
                     </div>
                 </div>
                 <div class="row-2">
 
-
-                    <div class="second-para">
+                    <div class="second-para fade-in-element">
                         <h2 id="second-para-header">What do I do?</h2>
-                        <p id="second-text-para"> Well. I do lots of things, with programming I do many things. I do
+                        <p id="second-text-para" > Well. I do lots of things, with programming I do many things. I do
                             recommend scrolling down to see all of what I know, but so far I am most proficient in
                             C/C++,
                             Rust, Python, and Lua. I am a self-taught programmer. Currently, I'm involved with a
                             internship
                             with a company named Nextech.</p>
                         <p></p>
-
                     </div>
-
                     <div class="second-img">
                         <img class="second-img-para" src="https://placehold.co/600x400/EEE/31343C">
                     </div>
@@ -96,6 +103,8 @@
             </div>
         </div>
     </div>
+
+
 
     <div class="overview">
         <div class="projects">
@@ -122,15 +131,8 @@
         </div>
     </div>
 
-    <nav class="navbar">
-        <div class="links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="indepth.html">About me: Extended</a></li>
-            </ul>
-        </div>
-    </nav>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

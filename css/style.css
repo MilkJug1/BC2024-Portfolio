@@ -3,11 +3,16 @@
 @import url("navbar.css");
 
 body {
+    scroll-behavior: smooth;
     background: #2b1f33;
     /* font: 18px Arial, sans-serif; */
     /* box-sizing: border-box; */
-    height: 10vh;
+    height: 100vh;
     /* position:static;  */
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .background {
@@ -26,26 +31,8 @@ body {
 
 
 
-/* .continued { */
-/*     display: flex; */
-/*     /* flex-direction: column; */
-*/
-/*     justify-content: space-around; */
-/*     align-items: flex-start; */
-/**/
-/*     background: #533554; */
-/*     /* TODO: Change color to a color that works well with the background. */
-*/
-/*     margin-top: 10vh; */
-/*     border-radius: 2.5vw; */
-/* } */
+/*  TODO: Change color to a color that works well with the background. */
 
-/* .continued { */
-/*     display: flex; */
-/*     justify-content: space-between; */
-/*     align-items: flex-start; */
-/*     padding: 20px; */
-/* } */
 
 .first-para,
 .second-para {
@@ -55,11 +42,14 @@ body {
 
 
 hr {
-    color: magenta;
+    color: #9a629c;
     margin-top: 9vh;
     margin-bottom: 9vh;
-    width: 45vw;
+    width: 55vw;
     border-radius: 10vw;
+    /* For other browsers*/
+    background-color: #9a629c
+    /* NOTE: TEMP COLOR CHANGE SOON*/
 }
 
 
@@ -67,30 +57,33 @@ hr {
     border-radius: 5vw;
     width: 95vw;
     background: #533554;
-}
+    /* margin-top: 45vh; */
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
-/* .content-wrapper { */
-/*     display: flex; */
-/*     justify-content: space-between; */
-/*     /* Space between the two main content blocks */
-/*     width: 100%; */
-/*     /* Take full width of parent */
-/* } */
+}
 
 .first-img-para,
 .second-img-para {
     clip-path: circle();
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
 }
 
+/* TODO: MAKE THIS ENTIRE SECTION FADE IN AS YOU ARE SCROLLING */
 
 .first-img,
 .second-img {
-    margin-top: 20px;
+    margin-right: 1.5vw;
+    margin-left: 4vw;
     /* Adjust spacing between image and paragraph */
 }
 
+.first-img {
+    margin-top: 20vh;
+}
 
 .second-para {
     flex-direction: column;
@@ -99,18 +92,66 @@ hr {
     width: 40vw;
 }
 
-.first-para-header {
-    font-size: 18vw;
+#first-para-header {
+    font-size: 8vw;
     font-family: "Rubik", sans-serif;
     font-weight: 600;
+    text-align: center;
+    position: relative;
+    right: 35vw;
+    bottom: -5vh;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
-.first-para {
+#second-para-header {
+    position: absolute;
+    bottom: -10.5em;
+    right: 0.5em;
+    font-size: 8vw;
+    font-family: "Rubik", sans-serif;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+
+}
+
+#second-text-para {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 40vw;
-    color: magenta;
+    color: #e08fe3;
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.first-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    color: #e08fe3;
+    font-size: 1.45vw;
+    position: relative;
+    bottom: 35vh;
+    right: -1vw;
+    text-wrap: pretty;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.first-para p {
+    width: 50vw;
 }
 
 
@@ -120,7 +161,7 @@ hr {
 
 }
 
-.row-1{
+.row-1 {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -139,32 +180,38 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    animation: dropIn 2.5s ease-in-out forwards;
+    animation: dropIn 1.5s ease-in forwards;
     /* animation-delay: 1s */
 
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #0f0f1d; /* Dark purple background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    top: 0;
     position: sticky;
     /* Apply the sticky positioning */
-    top: 0;
+    /* top: 0; */
+    bottom: 0;
     /* Stick the element to the top of the viewport */
     z-index: 100;
     /* Ensure the navbar is above other content */
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2vw;
 
 }
 
 .navbar div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
 
 }
 
 .navbar ul {
-    align-items: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -173,16 +220,21 @@ hr {
 
 .navbar li {
     margin-right: 20px;
+    margin: 0 5em;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #fff;
+    color: #e0e0e0; /* Light text */
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 
 .navbar li a:hover {
-    background-color: #111;
+    color: #ff00ff; /* Bright pink on hover */
 }
 
 #about-me-header {
@@ -210,10 +262,11 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .about-me-text {
-    
+
     color: #af6fd6;
     text-align: center;
     /* right: 5vw; */
@@ -234,3 +287,16 @@ hr {
     animation-name: slidein;
     animation-timing-function: ease-in-out;
 }
+
+.fade-in-element {
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.75s ease-in-out; /* Adjust transition time if needed */
+    will-change: opacity; /* Hint to the browser to optimize this element for changing opacity */
+}
+
+.fade-in-element.visible {
+    opacity: 1;
+    /* Visible state */
+}
+
+

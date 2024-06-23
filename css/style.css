@@ -24,22 +24,16 @@ html {
     z-index: -1;
 }
 
-
 .special {
     color: magenta;
 }
 
-
-
 /*  TODO: Change color to a color that works well with the background. */
-
 
 .first-para,
 .second-para {
     color: white;
 }
-
-
 
 hr {
     color: #9a629c;
@@ -51,7 +45,6 @@ hr {
     background-color: #9a629c
     /* NOTE: TEMP COLOR CHANGE SOON*/
 }
-
 
 .continued {
     border-radius: 5vw;
@@ -103,7 +96,6 @@ hr {
     background: linear-gradient(250deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 #second-para-header {
@@ -116,7 +108,6 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0px;
-
 }
 
 #second-text-para {
@@ -130,7 +121,6 @@ hr {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-
 }
 
 .first-para {
@@ -151,20 +141,23 @@ hr {
 }
 
 .first-para p {
-    width: 50vw;
+    text-align: center;
+    width: 65vw;
 }
-
 
 .row-1 .row-2 {
     display: flex;
     flex-direction: row;
-
 }
 
 .row-1 {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    position: relative;
+    /* opacity: 0; */
+    /* transform: translateY(0x); */
+    transition: all 1s ease-in-out;
 }
 
 .row-2 {
@@ -182,7 +175,6 @@ hr {
     margin-top: auto;
     animation: dropIn 1.5s ease-in forwards;
     /* animation-delay: 1s */
-
 }
 
 .navbar {
@@ -200,7 +192,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     border-radius: 2vw;
-
 }
 
 .navbar div {
@@ -208,7 +199,6 @@ hr {
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
-
 }
 
 .navbar ul {
@@ -232,7 +222,6 @@ hr {
     transition: color 0.3s ease;
 }
 
-
 .navbar li a:hover {
     color: #ff00ff; /* Bright pink on hover */
 }
@@ -242,7 +231,7 @@ hr {
     text-align: center;
     font-size: 10vh;
     position: relative;
-    /* #c3b5f7 for first color 
+    /* #c3b5f7 for first color
 *  #559ef2 for second */
     /* background: linear-gradient(215deg, #c3b5f7, #559ef2); */
     background: linear-gradient(250deg, #5796fa, #d43af0);
@@ -256,17 +245,14 @@ hr {
     /* margin-top: 5vh; */
 }
 
-
 .about-me {
     margin-top: 5vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .about-me-text {
-
     color: #af6fd6;
     text-align: center;
     /* right: 5vw; */
@@ -279,13 +265,38 @@ hr {
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #about {
     animation-duration: 3.5s;
     animation-name: slidein;
     animation-timing-function: ease-in-out;
+}
+
+.overview {
+    /*   background-color: #eadfeb; */
+    background-color: #3d27e;
+}
+
+.projects {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1fr;
+}
+.project4 {
+    grid-column-start: 2;
+}
+
+.current {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .fade-in-element {
@@ -298,5 +309,3 @@ hr {
     opacity: 1;
     /* Visible state */
 }
-
-

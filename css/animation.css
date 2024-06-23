@@ -1,7 +1,7 @@
 @keyframes slidein {
     from {
         margin-left: 100%;
-        width: 300%
+        width: 300%;
     }
 
     to {
@@ -9,8 +9,6 @@
         width: 100%;
     }
 }
-
-
 
 @keyframes rotate {
     from {
@@ -22,24 +20,22 @@
     }
 }
 
-
 /* The typing effect */
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
     }
 
     to {
-        width: 100%
+        width: 100%;
     }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-
     from,
     to {
-        border-color: transparent
+        border-color: transparent;
     }
 
     45% {
@@ -49,10 +45,12 @@
 
 @keyframes dropIn {
     from {
-        transform: translateY(-500px);
+        transform: translateY(-600px);
+        opacity: 0;
     }
 
     to {
         transform: translateY(0);
+        opacity: 1;
     }
 }

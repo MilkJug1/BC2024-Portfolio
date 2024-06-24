@@ -227,7 +227,8 @@ hr {
 }
 
 .navbar {
-    background-color: #0f0f1d; /* Dark purple background */
+    background-color: #0f0f1d;
+    /* Dark purple background */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     top: 0;
@@ -264,7 +265,8 @@ hr {
 
 .navbar a {
     text-decoration: none;
-    color: #e0e0e0; /* Light text */
+    color: #e0e0e0;
+    /* Light text */
     font-size: 1.2em;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -272,7 +274,8 @@ hr {
 }
 
 .navbar li a:hover {
-    color: #ff00ff; /* Bright pink on hover */
+    color: #ff00ff;
+    /* Bright pink on hover */
 }
 
 .overview {
@@ -292,8 +295,13 @@ hr {
     row-gap: 1fr;
     background-color: #3d273e;
 }
+
 .project4 {
     grid-column-start: 2;
+}
+
+.project2 {
+    justify-self: center;
 }
 
 .current {
@@ -303,12 +311,31 @@ hr {
 }
 
 .fade-in-element {
-    opacity: 0; /* Initially invisible */
-    transition: opacity 0.75s ease-in-out; /* Adjust transition time if needed */
-    will-change: opacity; /* Hint to the browser to optimize this element for changing opacity */
+    opacity: 0;
+    /* Initially invisible */
+    transition: opacity 0.75s ease-in-out;
+    /* Adjust transition time if needed */
+    will-change: opacity;
+    /* Hint to the browser to optimize this element for changing opacity */
 }
 
 .fade-in-element.visible {
     opacity: 1;
     /* Visible state */
+}
+
+.proj1-img {
+    width: 200%;
+}
+
+.proj2-img {
+    width: 300%;
+}
+
+.proj3-img {
+    width: 40%;
+}
+
+.current-img {
+    width: 20%;
 }

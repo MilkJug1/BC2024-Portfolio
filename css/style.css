@@ -13,6 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .background {
@@ -95,15 +96,15 @@ hr {
 
 .continued {
     border-radius: 5vw;
-    width: 98vw;
+    width: 96vw;
     background: #533554;
     /* margin-top: 45vh; */
     height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    /* overflow-y: scroll; */
+    /* -webkit-overflow-scrolling: touch; */
 }
 
 .first-img-para,
@@ -116,7 +117,7 @@ hr {
 .first-img,
 .second-img {
     margin-right: 1.5vw;
-    margin-left: 4vw;
+    margin-left: 1vw;
     /* Adjust spacing between image and paragraph */
 }
 
@@ -183,7 +184,7 @@ hr {
     font-size: 1.45vw;
     position: relative;
     bottom: 20vh;
-    right: -1vw;
+    right: 2vw;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -287,12 +288,12 @@ hr {
     display: flex;
     align-content: center;
     justify-content: center;
+    height: 200vh;
 }
 
 .project-table {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     background-color: #3d273e;
 }
 
@@ -305,9 +306,10 @@ hr {
 }
 
 .current {
-    grid-row-start: 3;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column-end: 4; */
 }
 
 .fade-in-element {
@@ -324,18 +326,57 @@ hr {
     /* Visible state */
 }
 
+.current-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.current-container p {
+    color: #e08fe3;
+    text-wrap: wrap;
+}
+
+.current-container h2 {
+    background: linear-gradient(100deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.proj-container p {
+
+    color: #e08fe3;
+}
+
+.proj-container h2 {
+    background: linear-gradient(100deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .proj1-img {
-    width: 200%;
+    width: 100%;
 }
 
 .proj2-img {
-    width: 300%;
+    margin-top: 5%;
+    width: 100%;
 }
 
 .proj3-img {
-    width: 40%;
+    width: 100%;
+    margin-top: 15%;
 }
 
-.current-img {
-    width: 20%;
+.current-container {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
 }

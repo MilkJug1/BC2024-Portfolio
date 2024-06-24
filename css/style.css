@@ -35,6 +35,53 @@ html {
     color: white;
 }
 
+#about-me-header {
+    /* TODO: Add gradient text*/
+    text-align: center;
+    font-size: 10vh;
+    position: relative;
+    /* #c3b5f7 for first color
+*  #559ef2 for second */
+    /* background: linear-gradient(215deg, #c3b5f7, #559ef2); */
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-variant: small-caps slashed-zero;
+    margin-bottom: 4vh;
+    /* text-wrap: pretty; */
+    z-index: 5;
+    /* margin-top: 5vh; */
+}
+
+.about-me {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-text {
+    color: #af6fd6;
+    text-align: center;
+    /* right: 5vw; */
+    margin-top: 3.5vh;
+    position: relative;
+    text-wrap: balance;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    animation-duration: 3.5s;
+    animation-name: slidein;
+    animation-timing-function: ease-in-out;
+}
+
 hr {
     color: #9a629c;
     margin-top: 9vh;
@@ -65,8 +112,6 @@ hr {
     max-width: 85%;
     height: auto;
 }
-
-/* TODO: MAKE THIS ENTIRE SECTION FADE IN AS YOU ARE SCROLLING */
 
 .first-img,
 .second-img {
@@ -230,56 +275,9 @@ hr {
     color: #ff00ff; /* Bright pink on hover */
 }
 
-#about-me-header {
-    /* TODO: Add gradient text*/
-    text-align: center;
-    font-size: 10vh;
-    position: relative;
-    /* #c3b5f7 for first color
-*  #559ef2 for second */
-    /* background: linear-gradient(215deg, #c3b5f7, #559ef2); */
-    background: linear-gradient(250deg, #5796fa, #d43af0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Rubik", sans-serif;
-    font-variant: small-caps slashed-zero;
-    margin-bottom: 4vh;
-    /* text-wrap: pretty; */
-    z-index: 5;
-    /* margin-top: 5vh; */
-}
-
-.about-me {
-    margin-top: 5vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.about-me-text {
-    color: #af6fd6;
-    text-align: center;
-    /* right: 5vw; */
-    margin-top: 3.5vh;
-    position: relative;
-    text-wrap: balance;
-    font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#about {
-    animation-duration: 3.5s;
-    animation-name: slidein;
-    animation-timing-function: ease-in-out;
-}
-
 .overview {
     /*   background-color: #eadfeb; */
-    background-color: #3d27e;
+    margin-top: 20vh;
 }
 
 .projects {
@@ -292,6 +290,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1fr;
+    background-color: #3d273e;
 }
 .project4 {
     grid-column-start: 2;

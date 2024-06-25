@@ -353,6 +353,22 @@ hr {
 .proj-container p {
 
     color: #e08fe3;
+    font-size: 1.25vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-wrap: wrap;
+    justify-content: center;
+}
+
+.current-container p {
+    color: #e08fe3;
+    font-size: 1.25vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-wrap: wrap;
+    justify-content: center;
 }
 
 .proj-container h2 {

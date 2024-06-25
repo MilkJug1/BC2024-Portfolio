@@ -342,7 +342,7 @@ hr {
 .current-img {
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    /* width: 75%; */
 }
 
 .current-container p {

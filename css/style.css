@@ -347,6 +347,7 @@ hr {
 
 .current-container p {
     color: #e08fe3;
+    text-align: center;
     text-wrap: wrap;
 }
 

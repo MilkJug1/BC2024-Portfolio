@@ -188,8 +188,9 @@ hr {
 }
 
 .first-para p {
-    text-align: center;
-    width: 65vw;
+    /* text-align: center; */
+    text-align: end;
+    width: 60vw;
 }
 
 .row-1 .row-2 {

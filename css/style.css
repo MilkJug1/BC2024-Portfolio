@@ -340,6 +340,9 @@ hr {
 }
 
 .current-img {
+    border-radius: 100%;
+    border: solid;
+    color: #e08fe3;
     margin-left: auto;
     margin-right: auto;
     /* width: 75%; */

@@ -337,10 +337,14 @@ hr {
     text-wrap: wrap;
 }
 
-.current-container h2 {
+.current-header {
+    font-size: 3vw;
     background: linear-gradient(100deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    /* font-variant: small-caps slashed-zero; */
 }
 
 .proj-container {

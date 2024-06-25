@@ -306,6 +306,7 @@ hr {
 .project-table {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 5%;
     background-color: #3d273e;
 }
 

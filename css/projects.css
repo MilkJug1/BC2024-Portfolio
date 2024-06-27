@@ -1,0 +1,17 @@
+.projects-grid {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+}
+
+.u1proj {
+    display: flex;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.u1proj-img {
+    width: 25%;
+}

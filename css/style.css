@@ -191,6 +191,7 @@ hr {
     /* text-align: center; */
     text-align: end;
     width: 60vw;
+    align-self: flex-start;
 }
 
 .row-1 .row-2 {

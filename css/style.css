@@ -374,3 +374,82 @@ hr {
     flex-direction: row;
     text-wrap: wrap;
 }
+
+.weird-section {}
+
+.weird-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.weird-container p {
+
+    color: #e08fe3;
+    text-align: center;
+    font-size: 1.25vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.weird-container h2 {
+
+    background: linear-gradient(100deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    font-size: 8rem;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+.weird-container button {
+    color: #d43af0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    margin-left: auto; 
+
+}
+
+.weird-container button {
+    letter-spacing: 0;
+}
+
+.weird-container button:hover,
+.weird-container button:active {
+    letter-spacing: 5px;
+}
+
+.weird-container button:after,
+.weird-container button:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(#e08fe3, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.weird-container button:hover:after,
+.weird-container button:hover:before {
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+
+.weird-container button:hover:before {
+    bottom: auto;

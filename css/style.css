@@ -345,6 +345,8 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
 }
 
 .proj1-img {

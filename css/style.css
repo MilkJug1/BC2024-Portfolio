@@ -338,6 +338,8 @@ hr {
     font-weight: 400;
     text-wrap: wrap;
     justify-content: center;
+    padding-left: auto;
+
 }
 
 .proj-container h2 {

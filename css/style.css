@@ -60,7 +60,8 @@ html {
 }
 
 .about-me-text {
-    color: #af6fd6;
+    /* color: #af6fd6; */
+    color: #dda0dd;
     text-align: center;
     /* right: 5vw; */
     margin-top: 3.5vh;

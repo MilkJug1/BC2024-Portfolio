@@ -97,7 +97,6 @@ hr {
     width: 96vw;
     background: #533554;
     /* margin-top: 45vh; */
-    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

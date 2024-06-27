@@ -459,3 +459,6 @@ hr {
 
 .weird-container button:hover:before {
     bottom: auto;
+    top: 0;
+    width: 70%;
+}

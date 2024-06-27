@@ -1,222 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
 
-<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
 
-    <link rel="stylesheet" href="css/style.css">
+    <body>
+        <!-- Weird Wave background-->
+        <div class="background">
+            <div class="wave -first"></div>
+            <div class="wave -second"></div>
+            <div class="wave -third"></div>
+        </div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <!-- Weird Wave background-->
-    <div class="background">
-        <div class="wave -first"></div>
-        <div class="wave -second"></div>
-        <div class="wave -third"></div>
-    </div>
-
-    <div class="main-page">
-        <div class="about-me">
-            <div class="intro">
-                <div id="heading">
-                    <h3 class="about-me" , id="about-me-header">Hello! Welcome to my Portfolio!</h3>
+        <div class="main-page">
+            <div class="about-me">
+                <div class="intro">
+                    <div id="heading">
+                        <h3 class="about-me" , id="about-me-header">
+                            Hello! Welcome to my Portfolio!
+                        </h3>
+                    </div>
+                    <!-- Change this image, I don't like it -->
+                    <!-- Make sure to add my image here -->
+                    <div class="about-container">
+                        <img id="about-pic" src="src/img/Image-2.jpg" />
+                        <div id="about">
+                            <p id="about-text" class="about-me-text">
+                                Hello there! My name is Michael, or
+                                <span class="special">MilkJug</span>!
+                            </p>
+                            <p class="about-me-text">
+                                I'm a teenage programmer from Indiana! Scroll
+                                down to find out more about me!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Change this image, I don't like it -->
-                <!-- Make sure to add my image here -->
-                <div class="about-container">
+                <hr />
+                <nav class="navbar">
+                    <div class="links">
+                        <ul>
+                            <li><a href="#about-me-header">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="knowledge.html">What I know</a></li>
+                            <li>
+                                <a href="indepth.html">About me: Extended</a>
+                            </li>
+                            <li><a href="credits.html">Credits</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
-                    <img id="about-pic" src="src/img/Image-2.jpg">
-                    <div id="about">
-                        <p id="about-text" class="about-me-text">Hello there! My name is Michael, or <span
-                                class='special'>MilkJug</span>!
-                        </p>
-                        <p class="about-me-text"> I'm a teenage programmer from Indiana! Scroll down to
-                            find out more about me!
-                        </p>
+                <div class="continued">
+                    <div class="row-1 fade-in-element">
+                        <div class="first-img">
+                            <img
+                                class="first-img-para"
+                                src="https://placehold.co/600x400/EEE/31343C"
+                                alt=""
+                            />
+                        </div>
+
+                        <div class="first-para">
+                            <h2 id="first-para-header">Who am I?</h2>
+                            <!--I should prob rewrite this. I feel its a bit to log-->
+                            <p>
+                                I am a
+                                <span class="special"
+                                    >self-taught programmer </span
+                                >who has a major intrest in
+                                <span class="special"
+                                    >Mechanical Engineering</span
+                                >, I first learned programming when I was
+                                <span class="special">10</span> and have been
+                                doing it since. I love working on projects, in
+                                fact that's where you can find me the most. When
+                                I'm not doing projects, my other intrests
+                                include,
+                                <span class="special"
+                                    >working out, playing sports, taking care of
+                                    animals, and playing games</span
+                                >. I also love to learn and experience new
+                                things, you can always find me learning or
+                                trying to understand some concept, whether it is
+                                new or old. A lot of the projects that I work
+                                on, have all been done with the mentality of
+                                wanting to learn something new.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row-2 fade-in-element">
+                        <div class="second-para">
+                            <h2 id="second-para-header">What do I do?</h2>
+                            <p id="second-text-para">
+                                Well. I do lots of things, with programming I do
+                                many things. I do recommend scrolling down to
+                                see all of what I know, but so far I am most
+                                proficient in
+                                <span class="special">C/C++, Rust, Python</span
+                                >, and <span class="special">Lua</span>.
+                                Currently, I'm involved with a internship with a
+                                company named
+                                <span class="special">Nextech</span>. If you
+                                want to see more about me, take a look at the
+                                <a class="special" href="indepth.html"
+                                    >About Me: Extended
+                                </a>
+                                for more information about me. But please, check
+                                out my projects!
+                            </p>
+                        </div>
+                        <div class="">
+                            <img
+                                class="second-img-para"
+                                src="https://placehold.co/600x400/EEE/31343C"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <nav class="navbar">
-                <div class="links">
-                    <ul>
-                        <li><a href="#about-me-header">Home</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="knowledge.html">What I know</a></li>
-                        <li><a href="indepth.html">About me: Extended</a></li>
-                        <li><a href="credits.html">Credits</a></li>
-                    </ul>
+        </div>
+        <!-- Don't forget to add links to the repos of each project-->
+        <!--NOTE: Make each item inside the grid, have a div container, which is a flexbox. That way items will be aligned properly. -->
+
+        <div class="overview">
+            <h3 class="overview-header">My Projects:</h3>
+            <div class="projects">
+                <div class="project-table">
+                    <div class="project1">
+                        <div class="proj-container">
+                            <!-- Insert Nextech project here-->
+                            <!-- <img class="proj1-img" src="src/img/u2proj.png" alt=""> -->
+                            <img
+                                class="proj1-img"
+                                src="src/img/u2proj.png"
+                                alt=""
+                            />
+
+                            <h2>Building a Website for Change</h2>
+                            <p>
+                                This was one of the earliest projects that we
+                                did at my internship, the whole basis of this
+                                project was, "what if you wanted something to
+                                change in your community, how would you make a
+                                website off of that?" This was my earliest full
+                                experience using CSS and HTML, the first in a
+                                long time. And you can see some of the earliest
+                                ideas for this website come up there. Examples
+                                being the gradients, the colors, and the
+                                animations(might not be the same ones, but the
+                                idea was there).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project2">
+                        <div class="proj-container">
+                            <!-- <img class="proj2-img" src="src/img/u3proj.png" alt=""> -->
+                            <img
+                                class="proj2-img"
+                                src="src/img/u3proj.png"
+                                alt=""
+                            />
+                            <h2>Choose Your Own Story Adventure</h2>
+                            <p>
+                                This was a really fun project to do, I wish I
+                                had gotten time to style it since I was really
+                                happy with the end result. This was a project
+                                with the notion of a "Choose your own
+                                adventure"-type game, since it was a small
+                                little game. I decided to base this off of
+                                another game that I was really fond of. The
+                                styling may not be there, but I do recommend
+                                looking at the code, I spent a lot of time
+                                figuring out a new way to handle user input.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project3">
+                        <div class="proj-container">
+                            <img
+                                class="proj3-img"
+                                src="src/img/u4proj.png"
+                                alt=""
+                            />
+                            <!-- <img class="proj3-img" src="https://placehold.co/600x400/EEE/31343C" alt=""> -->
+                            <h2>Buzzfeed-Style Quiz</h2>
+                            <p>
+                                This was a quiz, more specifally, in the style
+                                to the ones you would see on a website like
+                                Buzzfeed, where after answering a bunch of
+                                questions, you get told what you are/what you
+                                have. This was "completed" in a day, tho was
+                                never fully finished. I was struggling with
+                                getting an idea for this project, though I did
+                                get most of the functionality going. I was wjust
+                                about to work on the results half of the
+                                project, until I ran out of time. I didn't get a
+                                chance to fully customize the page, which is
+                                fine. This was where I got the most knowledge of
+                                javascript, our task was to get the user input
+                                and store it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project4">
+                        <div class="proj-container">
+                            <img class="proj4-img" src="src/img/recto.png" />
+                            <h2>Recto, A Terminal Text Editor in Rust</h2>
+                            <p>
+                                This was a small project I did last year to get
+                                used to Rust, I worked on it some more this
+                                January to get used to some more concepts that I
+                                was needing to tackle. Recto, as I named it in
+                                my computer, was a GNU Nano inspired editor.
+                                This was a very fun project that involved
+                                filesystem I/O, understanding how terminal apps
+                                functioned, and how to write to a buffer.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-
-            <div class="continued">
-                <div class="row-1 fade-in-element">
-
-                    <div class="first-img">
-                        <img class="first-img-para" src="https://placehold.co/600x400/EEE/31343C" alt="">
-                    </div>
-
-                    <div class="first-para ">
-                        <h2 id="first-para-header">Who am I?</h2>
-                        <!--I should prob rewrite this. I feel its a bit to log-->
-                        <p>I am a <span class="special">self-taught programmer </span>who has a major intrest in <span
-                                class="special">Mechanical Engineering</span>, I first learned programming when I was
-                            <span class="special">10</span> and have been doing it since. I love working on projects, in
-                            fact that's where you can find me the most. When I'm not doing projects, my other intrests
-                            include, <span class="special">working out, playing sports, taking care of animals, and
-                                playing games</span>. I also love to learn and experience new things, you can always
-                            find me learning or trying to understand some concept, whether it is new or old. A lot of
-                            the projects that I work on, have all been done with the mentality of wanting to learn
-                            something new.
-                        </p>
-                    </div>
-                </div>
-                <div class="row-2 fade-in-element">
-
-                    <div class="second-para ">
-                        <h2 id="second-para-header">What do I do?</h2>
-                        <p id="second-text-para"> Well. I do lots of things, with programming I do many things. I do
-                            recommend scrolling down to see all of what I know, but so far I am most proficient in
-                            <span class="special">C/C++,
-                                Rust, Python</span>, and <span class="special">Lua</span>.
-                            Currently, I'm involved with a
-                            internship
-                            with a company named <span class="special">Nextech</span>. If you want to see more about me,
-                            take a look at the
-                            <a class="special" href="indepth.html">About Me: Extended </a> for more information about
-                            me. But please,
-                            check out my projects!
-                        </p>
-                    </div>
-                    <div class="">
-                        <img class="second-img-para" src="https://placehold.co/600x400/EEE/31343C">
-                    </div>
+                <!-- I don't really know if I should have this in the grid or outside, since I kinda want it to be aligned with the other projects, but be bigger and have a header that says like "What I am working out Currently:" and just be like a carosel of some projects-->
+            </div>
+            <h3 class="overview-header">Current Project:</h3>
+            <div class="current fade-in-element">
+                <h2 class="current-header">Oculus Link for Linux (OLfL)</h2>
+                <div class="current-container">
+                    <!-- Insert OLfL here-->
+                    <img
+                        class="current-img"
+                        src="src/img/OLfl-logo-5.png"
+                        alt=""
+                    />
+                    <p>
+                        This is a massive project that I am currently working
+                        on, the idea for this project is to get Oculus(Or as its
+                        know as, Meta)'s Link, a program/software, that allows
+                        for a user of the Quest VR headset, to use it as a PCVR
+                        headset. Unfortunately, there is no *offical* build for
+                        Linux or any working thing. This will be built with a
+                        mix of Rust and C++, this is a project that is still in
+                        development, and has been for about a year or 2 now.
+                    </p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Don't forget to add links to the repos of each project-->
-    <!--NOTE: Make each item inside the grid, have a div container, which is a flexbox. That way items will be aligned properly. -->
-
-    <div class="overview">
-        <h3 class="overview-header">My Projects:</h3>
-        <div class="projects">
-            <div class="project-table">
-                <div class="project1">
-                    <div class="proj-container ">
-
-                        <!-- Insert Nextech project here-->
-                        <!-- <img class="proj1-img" src="src/img/u2proj.png" alt=""> -->
-                        <img class="proj1-img" src="src/img/u2proj.png" alt="">
-
-                        <h2>Building a Website for Change</h2>
-                        <p>This was one of the earliest projects that we did at my internship, the whole basis of this
-                            project was, "what if you wanted something to change in your community, how would you make a
-                            website off of that?" This was my earliest full experience using CSS and HTML, the first in
-                            a
-                            long time. And you can see some of the earliest ideas for this website come up there.
-                            Examples
-                            being the gradients, the colors, and the animations(might not be the same ones, but the idea
-                            was
-                            there).</p>
-                    </div>
+            <div class="weird-section">
+                <div class="weird-container">
+                    <h2>Theres More I've done!</h2>
+                    <p>
+                        This isn't all of my projects, just a snippet, but if
+                        you would like to see all of my other ones!
+                    </p>
+                    <p>Click the projects button in the navbar to see more!</p>
                 </div>
-                <div class="project2">
-                    <div class="proj-container">
-                        <!-- <img class="proj2-img" src="src/img/u3proj.png" alt=""> -->
-                        <img class="proj2-img" src="src/img/u3proj.png" alt="">
-                        <h2>Choose Your Own Story Adventure</h2>
-                        <p>This was a really fun project to do, I wish I had gotten time to style it since I was really
-                            happy with the end result. This was a project with the notion of a "Choose your own
-                            adventure"-type game, since it was a small little game. I decided to base this off of
-                            another game that I was really fond of. The styling may not be there, but I do recommend
-                            looking at the code, I spent a lot of time figuring out a new way to handle user input. </p>
-                    </div>
-                </div>
-                <div class="project3">
-                    <div class="proj-container">
-                        <img class="proj3-img" src="src/img/u4proj.png" alt="">
-                        <!-- <img class="proj3-img" src="https://placehold.co/600x400/EEE/31343C" alt=""> -->
-                        <h2>Buzzfeed-Style Quiz</h2>
-                        <p>This was a quiz, more specifally, in the style to the ones you would see on a website like
-                            Buzzfeed, where after answering a bunch of questions, you get told what you are/what you
-                            have.
-                            This was "completed" in a day, tho was never fully finished. I was struggling with getting
-                            an
-                            idea for this project, though I did get most of the functionality going. I was wjust about
-                            to
-                            work on the results half of the project, until I ran out of time. I didn't get a chance to
-                            fully
-                            customize the page, which is fine. This was where I got the most knowledge of javascript,
-                            our
-                            task was to get the user input and store it. </p>
-                    </div>
-                </div>
-                <div class="project4">
-                    <div class="proj-container">
-
-                        <img class="proj4-img" src="src/img/recto.png">
-                        <h2>Recto, A Terminal Text Editor in Rust</h2>
-                        <p>This was a small project I did last year to get used to Rust, I worked on it some more this
-                            January to get used to some more concepts that I was needing to tackle. Recto, as I named it
-                            in my computer, was a GNU Nano inspired editor. This was a very fun project that involved
-                            filesystem I/O, understanding how terminal apps functioned, and how to write to a buffer.
-                        </p>
-                    </div>
-
-                </div>
-
-
             </div>
-            <!-- I don't really know if I should have this in the grid or outside, since I kinda want it to be aligned with the other projects, but be bigger and have a header that says like "What I am working out Currently:" and just be like a carosel of some projects-->
+            <div class="knowledge"></div>
         </div>
-        <h3 class="overview-header">Current Project:</h3>
-        <div class="current fade-in-element">
 
-            <h2 class="current-header">Oculus Link for Linux (OLfL)</h2>
-            <div class="current-container">
-
-                <!-- Insert OLfL here-->
-                <img class="current-img" src="src/img/OLfl-logo-5.png" alt="">
-                <p>This is a massive project that I am currently working on, the idea for this project is to get
-                    Oculus(Or as its know as, Meta)'s Link, a program/software, that allows for a user of the
-                    Quest
-                    VR headset, to use it as a PCVR headset. Unfortunately, there is no *offical* build for
-                    Linux or
-                    any working thing. This will be built with a mix of Rust and C++, this is a project that is
-                    still in development, and has been for about a year or 2 now. </p>
-            </div>
-        </div>
-        <div class="weird-section">
-            <div class="weird-container">
-                <h2>Theres More I've done!</h2>
-                <p>This isn't all of my projects, just a snippet, but if you would like to see all of my other
-                    ones!</p>
-                <a href="projects.html">
-                    <button type="button">Click Here to See More!</button>
-                </a>
-            </div>
-        </div>
-        <div class="knowledge">
-
-        </div>
-    </div>
-
-    <script src="js/main.js"></script>
-
-</body>
-
+        <script src="js/main.js"></script>
+    </body>
 </html>

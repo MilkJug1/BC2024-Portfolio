@@ -11,6 +11,23 @@ body {
     /* position:static;  */
 }
 
+/*Style all p tags with the same colors since I find myself doing copying and pasting the same section*/
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -28,10 +45,7 @@ html {
 .special {
     color: magenta;
 }
-
 /*  TODO: Change color to a color that works well with the background. */
-
-
 
 #about-me-header {
     /* TODO: Add gradient text*/
@@ -44,7 +58,6 @@ html {
     background: linear-gradient(250deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Rubik", sans-serif;
     font-variant: small-caps slashed-zero;
     margin-bottom: 4vh;
     /* text-wrap: pretty; */
@@ -68,8 +81,6 @@ html {
     position: relative;
     text-wrap: balance;
     font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
@@ -132,8 +143,6 @@ hr {
 
 #first-para-header {
     font-size: 8vw;
-    font-family: "Rubik", sans-serif;
-    font-weight: 600;
     text-align: center;
     position: relative;
     right: 25vw;
@@ -149,7 +158,6 @@ hr {
     bottom: -8em;
     right: 0.5em;
     font-size: 8vw;
-    font-family: "Rubik", sans-serif;
     background: linear-gradient(250deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -164,9 +172,6 @@ hr {
     width: 40vw;
     color: #e08fe3;
     font-size: 1.5vw;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
     position: relative;
     right: 15vw;
     top: 2vh;
@@ -183,9 +188,6 @@ hr {
     position: relative;
     bottom: 20vh;
     right: 2vw;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
 }
 
 .first-para p {
@@ -232,10 +234,8 @@ hr {
     background: linear-gradient(100deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Rubik", sans-serif;
     font-variant: small-caps slashed-zero;
     font-size: 10vh;
-
 }
 
 .overview {
@@ -310,7 +310,6 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    font-family: "Rubik", sans-serif;
     /* font-variant: small-caps slashed-zero; */
 }
 
@@ -318,15 +317,11 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .proj-container p {
-
     color: #e08fe3;
     font-size: 1.25vw;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
     font-weight: 400;
     text-wrap: wrap;
     justify-content: center;
@@ -335,13 +330,10 @@ hr {
 .current-container p {
     color: #e08fe3;
     font-size: 1.25vw;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
     font-weight: 400;
     text-wrap: wrap;
     justify-content: center;
     padding-left: auto;
-
 }
 
 .proj-container h2 {
@@ -349,8 +341,6 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    font-family: "Rubik", sans-serif;
-    font-weight: 600;
 }
 
 .proj1-img {
@@ -381,7 +371,8 @@ hr {
     text-wrap: wrap;
 }
 
-.weird-section {}
+.weird-section {
+}
 
 .weird-container {
     display: flex;
@@ -391,17 +382,13 @@ hr {
 }
 
 .weird-container p {
-
     color: #e08fe3;
     text-align: center;
     font-size: 1.25vw;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
     font-weight: 400;
 }
 
 .weird-container h2 {
-
     background: linear-gradient(100deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     font-size: 8rem;

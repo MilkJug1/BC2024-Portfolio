@@ -136,7 +136,7 @@ hr {
     font-weight: 600;
     text-align: center;
     position: relative;
-    right: 35vw;
+    right: 25vw;
     /* bottom: -10vh; */
     bottom: -8vh;
     background: linear-gradient(250deg, #5796fa, #d43af0);
@@ -146,7 +146,7 @@ hr {
 
 #second-para-header {
     position: absolute;
-    bottom: -10.5em;
+    bottom: -8em;
     right: 0.5em;
     font-size: 8vw;
     font-family: "Rubik", sans-serif;

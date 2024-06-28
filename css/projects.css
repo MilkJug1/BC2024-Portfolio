@@ -3,7 +3,11 @@
     grid-template-rows: 2fr 2fr;
 }
 
-.u1proj {
+.projects-indepth {
+    display: block;
+}
+
+div {
     display: flex;
 }
 
@@ -12,6 +16,10 @@
     flex-direction: column;
 }
 
-.u1proj-img {
-    width: 25%;
+.start-img {
+
+}
+
+.end-img{
+    align-self: flex-end;
 }

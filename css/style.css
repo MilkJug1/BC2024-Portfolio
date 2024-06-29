@@ -113,6 +113,8 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
     /* overflow-y: scroll; */
     /* -webkit-overflow-scrolling: touch; */
 }

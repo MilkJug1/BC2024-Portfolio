@@ -1,0 +1,45 @@
+.knowledge-grid {
+    display: grid;
+}
+
+.cpp-img {
+    width: 20%;
+}
+
+
+
+.item {
+    scroll-snap-align: center;
+}
+
+.prev-btn {
+    width: 4rem;
+    height: 4rem;
+}
+
+.next-btn {
+    width: 4rem;
+height: 4rem;
+}
+
+.item-list {
+    max-width: 950px;
+    width: 70vw;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.item-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.item-list {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

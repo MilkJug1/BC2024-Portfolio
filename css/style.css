@@ -356,7 +356,7 @@ hr {
 }
 
 .proj2-img {
-    margin-top: 5%;
+    margin-top: 1rem;
     border-radius: 5%;
     width: 100%;
 }
@@ -364,7 +364,7 @@ hr {
 .proj3-img {
     width: 100%;
     border-radius: 5%;
-    margin-top: 15%;
+    margin-top: 1rem;
 }
 
 .proj4-img {

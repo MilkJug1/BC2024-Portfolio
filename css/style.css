@@ -302,9 +302,17 @@ hr {
 }
 
 .current-container p {
-    color: #e08fe3;
+    color: #dda0dd;
     text-align: center;
     text-wrap: wrap;
+    font-size: 1.25vw;
+    font-weight: 400;
+    text-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .current-header {

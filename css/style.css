@@ -34,8 +34,9 @@ html {
 }
 
 .background {
-    display: block;
-    position: absolute;
+    /* display: block; */
+    position: fixed;
+    /* position: relative; */
     top: 0;
     transform: rotate(80deg);
     left: 0;

@@ -339,12 +339,7 @@ hr {
 }
 
 .current-container p {
-    color: #e08fe3;
-    font-size: 1.25vw;
-    font-weight: 400;
-    text-wrap: wrap;
-    justify-content: center;
-    padding-left: auto;
+
 }
 
 .proj-container h2 {

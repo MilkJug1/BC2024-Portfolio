@@ -344,6 +344,7 @@ hr {
 
 .proj-container h2 {
     background: linear-gradient(100deg, #5796fa, #d43af0);
+    font-size: 2.5rem ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;

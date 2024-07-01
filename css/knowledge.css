@@ -19,6 +19,18 @@
 }
 
 
+.carousel-view {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .item {
     scroll-snap-align: center;

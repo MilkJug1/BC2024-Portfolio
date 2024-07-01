@@ -239,10 +239,41 @@
         <!--NOTE: Make each item inside the grid, have a div container, which is a flexbox. That way items will be aligned properly. -->
 
 
-        <div class="knowledge"></div>
-    </div>
+        <div class="contact-me">
+            <p>If you want to reach me, please contact me!</p>
+            <div class="container">
+                <h2>Contact Me!</h2>
+                <input type="text" id="name" placeholder="Name" autocomplete='off'>
+                <input id='email' type="email" placeholder="johndoe@gmail.com">
+                <input id="subject" type='text' placeholder="Subject goes here">
+                <textarea id="message" placeholder="Message" cols='30' rows='10'></textarea>
+                <button id="btn">Send</button>
 
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    var btn = document.getElementById('btn');
+                    btn.addEventListener('click', function (e) {
+                        // e.preventDefault()
+                        var name = document.getElementById('name').value;
+                        var email = document.getElementById('email').value;
+                        var subject = document.getElementById('subject').value;
+                        var message = document.getElementById('message').value;
+                        var body = 'name: ' + name + '<br> email: ' + email + '<br> subject: ' + subject + '<br> message: ' + message;
+
+                        Email.send({
+                            SecureToken: "3f711337-c1ba-41ad-8648-1ad980008f22",
+                            To: "michael.sagan.crawford@gmail.com", From: "michael.sagan.crawford@gmail.com",
+                            Subject: "contact message", Body: body
+                        }).then(message => alert(message));
+
+                    })</script>
+            </div>
+        </div>
+    </div>
+    <!--  5d16b719-4486-42f3-b9db-f757666021bc-->
+    <!--3f711337-c1ba-41ad-8648-1ad980008f22 -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

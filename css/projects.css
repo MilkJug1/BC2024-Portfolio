@@ -5,6 +5,8 @@
 
 .projects-indepth {
     display: block;
+    background: #533554;
+    border-radius: 2rem;
 }
 
 div {

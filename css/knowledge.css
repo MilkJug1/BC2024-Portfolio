@@ -18,6 +18,33 @@
     width: 20%;
 }
 
+.rust-img {
+    width: 20%;
+}
+
+.python-img {
+    width: 20%;
+}
+
+#cpp-img {
+    align-self: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 20rem;
+}
+
+#rust-img {
+    width: 40rem;
+    margin-right: 5rem;
+}
+
+#linux-img {
+    width: 30%;
+}
+
+#unreal-img {
+    width: 40%;
+}
 
 .carousel-view {
     display: flex;

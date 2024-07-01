@@ -1,4 +1,5 @@
 @import url("animation.css");
+@import url("contact.css");
 @import url("wave.css");
 @import url("navbar.css");
 
@@ -55,6 +56,7 @@ html {
     position: relative;
     /* #c3b5f7 for first color
 *  #559ef2 for second */
+    /* #f7cdcd and #c2f7f8 */
     /* background: linear-gradient(215deg, #c3b5f7, #559ef2); */
     background: linear-gradient(250deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
@@ -134,7 +136,11 @@ hr {
 }
 
 .first-img {
-    margin-top: 30vh;
+    margin-top: 20vh;
+}
+
+.first-img {
+    width: 35em;
 }
 
 .second-para {
@@ -148,7 +154,7 @@ hr {
     font-size: 8vw;
     text-align: center;
     position: relative;
-    right: 25vw;
+    right: 30vw;
     /* bottom: -10vh; */
     bottom: -8vh;
     background: linear-gradient(250deg, #5796fa, #d43af0);
@@ -176,7 +182,7 @@ hr {
     color: #e08fe3;
     font-size: 1.5vw;
     position: relative;
-    right: 15vw;
+    right: 5vw;
     top: 2vh;
 }
 
@@ -196,7 +202,7 @@ hr {
 .first-para p {
     /* text-align: center; */
     text-align: end;
-    width: 60vw;
+    width: 59vw;
     align-self: flex-start;
 }
 
@@ -338,13 +344,11 @@ hr {
     justify-content: center;
 }
 
-.current-container p {
-
-}
+.current-container p {}
 
 .proj-container h2 {
     background: linear-gradient(100deg, #5796fa, #d43af0);
-    font-size: 2.5rem ;
+    font-size: 2.5rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -378,8 +382,7 @@ hr {
     text-wrap: wrap;
 }
 
-.weird-section {
-}
+.weird-section {}
 
 .weird-container {
     display: flex;

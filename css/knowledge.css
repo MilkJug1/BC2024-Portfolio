@@ -29,13 +29,26 @@
     height: 4rem;
 }
 
-.next-btn {
+button {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.next-btn { 
+    font-size: 3rem;
     width: 4rem;
-height: 4rem;
+    height: 4rem;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.next-btn:hover {
+    background: #ff00ff; /* Temp color, TODO: CHANGE THIS TO SOMETHING REASONABLE*/
+    color: white;
 }
 
 .item-list {
-    max-width: 950px;
+    max-width: 800px;
     width: 70vw;
     display: flex;
     scroll-behavior: smooth;

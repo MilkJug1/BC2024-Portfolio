@@ -1,0 +1,21 @@
+.contact-me p {
+    color: #e08fe3;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.container>h2 {
+    background: linear-gradient(100deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

@@ -13,15 +13,38 @@ div {
     display: flex;
 }
 
+.projects-indepth>h2 {
+    font-size: 6em;
+    /* #f7cdcd and #c2f7f8 */
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.u2proj {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rustOs {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 .proj-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
-.start-img {
-
+.dotfiles {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.end-img{
+.start-img {}
+
+.end-img {
     align-self: flex-end;
 }

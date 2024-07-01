@@ -49,6 +49,7 @@ button {
 
 .item-list {
     max-width: 800px;
+    border: teal solid; /*Again, also temp color, TODO: MAKE SURE TO CHANGE*/
     width: 70vw;
     display: flex;
     scroll-behavior: smooth;

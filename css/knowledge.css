@@ -2,6 +2,18 @@
     display: grid;
 }
 
+.knowledge-begin {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
 .cpp-img {
     width: 20%;
 }

@@ -1,4 +1,26 @@
 @import url("future.css");
 
 
+.about-extended {
+    display: flex;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+}
+
+
+.about-container > h2 {
+    font-size: 5em;
+    text-align: center;
+}
+
+
+.me {
+    clip-path: circle();
+    width: 25%;
+}
 

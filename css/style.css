@@ -47,6 +47,7 @@ html {
 .special {
     color: magenta;
 }
+
 /*  TODO: Change color to a color that works well with the background. */
 
 #about-me-header {
@@ -102,6 +103,8 @@ hr {
     width: 55vw;
     border-radius: 10vw;
     /* For other browsers*/
+    /* NOTE: COLOR DOESN"T FUCKING WORKK AND I DON"T UNDERSTAND WHY, STUPID BROWSER SHIT AAAAAAA This works on firefox 
+* but for some random reason, not on Chrome.;*/
     background-color: #9a629c;
     /* NOTE: TEMP COLOR CHANGE SOON*/
 }
@@ -212,6 +215,7 @@ hr {
 }
 
 .row-1 {
+    margin-left: 5rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -402,6 +406,48 @@ hr {
     background: linear-gradient(100deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     font-size: 8rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     -webkit-text-fill-color: transparent;
     text-align: center;
+}
+
+input {
+    border-radius: 25px;
+    align-self: center;
+}
+
+#name {
+    align-self: center;
+    width: 50em;
+    height: 3em;
+    font-size: 1.25em;
+    border-radius: 25px;
+}
+
+#email {
+    width: 50em;
+    height: 3em;
+    font-size: 1.25em;
+}
+
+.contact-me>p {
+    text-align: center;
+    font-size: 2.25em;
+
+}
+
+.contact-me>h2 {
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#subject {
+    width: 50em;
+    height: 3em;
+    font-size: 1.25em;
+
 }

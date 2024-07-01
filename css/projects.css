@@ -9,7 +9,27 @@
     border-radius: 2rem;
 }
 
+.projects-indepth > h2 {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.projects-indepth > p {
+    color: #dda0dd;
+    font-size: 1.50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-wrap: wrap;
+}
+
+.projects-grid > div {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
 div {
+    /* margin-left: 5em; */
+    /* margin-right: 5em; */
     display: flex;
 }
 

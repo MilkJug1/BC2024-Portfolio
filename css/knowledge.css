@@ -7,7 +7,12 @@
     flex-direction: column;
 }
 
+.knowledge { 
+    background: #533554;
+}
+
 .container {
+
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -48,6 +53,14 @@
 #unreal-img {
     /* width: 40%; */
 
+}
+
+#linux-img {
+    width: 30%;
+}
+
+#unreal-img {
+    width: 30%;
 }
 
 .carousel-view {
@@ -94,7 +107,7 @@ button {
 .item-list {
     max-width: 800px;
     border: teal solid; /*Again, also temp color, TODO: MAKE SURE TO CHANGE*/
-    width: 70vw;
+    width: 75vw;
     display: flex;
     scroll-behavior: smooth;
     overflow: auto;

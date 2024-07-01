@@ -1,0 +1,45 @@
+.credit-container {
+    background: #533554;
+    margin-top: 1.5rem;
+    padding-bottom: 5em;
+    border-radius: 20px;
+    padding-top: 1em;
+}
+
+
+
+p {
+    color: #dda0dd;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+li {
+    color: #dda0dd;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h2 {
+
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+.credit-container>h2 {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: auto;
+}
+
+.credit-container>p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.25em;
+}

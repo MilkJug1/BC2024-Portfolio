@@ -27,12 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const prev = document.getElementById('prev-btn')
 const next = document.getElementById('next-btn')
 const list = document.getElementById('item-list')
-const itemWidth = 150
-const padding = 10
+const itemWidth = 500 // Values need changing and more tweaking when adding images into them
+const padding = 50
 
-prev.addEventListener('click',()=>{
-  list.scrollLeft -= (itemWidth + padding)
+prev.addEventListener('click', () => {
+    list.scrollLeft -= (itemWidth + padding)
 })
-next.addEventListener('click',()=>{
-  list.scrollLeft += (itemWidth + padding)
+next.addEventListener('click', () => {
+    list.scrollLeft += (itemWidth + padding)
 })
+
+

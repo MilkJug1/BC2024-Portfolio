@@ -28,22 +28,26 @@
 
 #cpp-img {
     align-self: center;
-    margin-left: 5em;
-    margin-right: 5em;
-    width: 20rem;
+    margin-left: 10rem;
+    padding-left: 7rem;
+    margin-right: 10rem;
+    width: 15rem;
 }
 
 #rust-img {
-    width: 40rem;
-    margin-right: 5rem;
+    width: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 #linux-img {
-    width: 30%;
+    /* width: 30%; */
+    
 }
 
 #unreal-img {
-    width: 40%;
+    /* width: 40%; */
+
 }
 
 .carousel-view {

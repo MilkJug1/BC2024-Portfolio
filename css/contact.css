@@ -6,7 +6,7 @@
 
 }
 
-.container>h2 {
+.btn-container>h2 {
     background: linear-gradient(100deg, #5796fa, #d43af0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -15,7 +15,7 @@
     font-weight: 600;
 }
 
-.container {
+.btn-container {
     display: flex;
     flex-direction: column;
 }

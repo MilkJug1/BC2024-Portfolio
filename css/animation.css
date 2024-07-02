@@ -33,6 +33,7 @@
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent;
@@ -52,5 +53,18 @@
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        /* display: none; */
+        transform: translateY(-50vh);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

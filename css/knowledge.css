@@ -1,5 +1,6 @@
 .knowledge-grid {
     display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
 }
 
 .knowledge-begin {
@@ -7,16 +8,52 @@
     flex-direction: column;
 }
 
-.knowledge { 
-    background: #533554;
+.knowledge {
+    /* background: #533554; */
 }
 
 .container {
-
     display: flex;
     align-content: center;
     flex-direction: column;
     align-self: center;
+}
+
+.container>h2 {
+    text-align: center;
+    font-size: 5em;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#beginning > p{
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.container>p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 1.25em;
+    text-align: center;
+    color: #e08fe3;
+    font-weight: 500;
+}
+
+.container > img {
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.container-carousel>h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 5em;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .cpp-img {
@@ -47,7 +84,7 @@
 
 #linux-img {
     /* width: 30%; */
-    
+
 }
 
 #unreal-img {
@@ -55,11 +92,11 @@
 
 }
 
-#linux-img {
+.linux-img {
     width: 30%;
 }
 
-#unreal-img {
+.unreal-img {
     width: 30%;
 }
 
@@ -91,7 +128,7 @@ button {
     text-align: center;
 }
 
-.next-btn { 
+.next-btn {
     font-size: 3rem;
     width: 4rem;
     height: 4rem;
@@ -100,13 +137,15 @@ button {
 }
 
 .next-btn:hover {
-    background: #ff00ff; /* Temp color, TODO: CHANGE THIS TO SOMETHING REASONABLE*/
+    background: #ff00ff;
+    /* Temp color, TODO: CHANGE THIS TO SOMETHING REASONABLE*/
     color: white;
 }
 
 .item-list {
     max-width: 800px;
-    border: teal solid; /*Again, also temp color, TODO: MAKE SURE TO CHANGE*/
+    border: teal solid;
+    /*Again, also temp color, TODO: MAKE SURE TO CHANGE*/
     width: 75vw;
     display: flex;
     scroll-behavior: smooth;

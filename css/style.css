@@ -112,7 +112,8 @@ hr {
 .continued {
     border-radius: 5vw;
     width: 96vw;
-    background: #533554;
+    /* background: #533554; */
+    background-color: #3d274c;
     /* margin-top: 45vh; */
     height: 150vh;
     display: flex;
@@ -270,7 +271,7 @@ hr {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     column-gap: 5%;
-    background-color: #3d273e;
+    background-color: #3d274c;
 }
 
 .project4 {
@@ -303,8 +304,8 @@ hr {
 }
 
 .current-img {
-    border-radius: 100%;
-    border: solid;
+    /* border-radius: 100%; */
+    /* border: solid; */
     color: #e08fe3;
     margin-left: 4rem;
     margin-right: auto;
@@ -340,10 +341,16 @@ hr {
     justify-content: center;
 }
 
+#u1proj-text {
+    /* padding-left: 10rem; */
+    /* margin-left: 50rem; */
+}
+
 .proj-container p {
     color: #dda0dd;
     font-size: 1.25vw;
-    font-weight: 400;
+    font-weight: 500;
+    padding-left: 2rem;
     text-wrap: wrap;
     justify-content: center;
 }

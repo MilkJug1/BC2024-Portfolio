@@ -1,6 +1,10 @@
+@import url(animation.css);
+
 .projects-grid {
     display: grid;
     grid-template-rows: 2fr 2fr;
+    row-gap: 10rem;
+    margin-bottom: 4em;
 }
 
 .projects-indepth {
@@ -9,20 +13,25 @@
     border-radius: 2rem;
 }
 
-.projects-indepth > h2 {
-    padding-top: 2em;
+.projects-indepth>h2 {
+    padding-top: 0.5em;
     text-align: center;
+    margin-bottom: 2vw;
 }
 
-.projects-indepth > p {
+.projects-indepth>p {
     color: #dda0dd;
     font-size: 1.50rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin-top: 1em;
+    padding-left: 10rem;
+    text-align: center;
+    padding-right: 10rem;
+    margin-bottom: 5em;
     text-wrap: wrap;
 }
 
-.projects-grid > div {
+.projects-grid>div {
+    margin-top: 5em;
     margin-left: 5em;
     margin-right: 5em;
 }
@@ -34,6 +43,7 @@ div {
 }
 
 .projects-indepth>h2 {
+    margin-top: 0.5em;
     font-size: 6em;
     /* #f7cdcd and #c2f7f8 */
     background: linear-gradient(250deg, #5796fa, #d43af0);
@@ -42,12 +52,31 @@ div {
     -webkit-text-fill-color: transparent;
 }
 
+
 .u2proj {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.rustOs {
+.u4proj {
+    display: flex;
+    justify-content: center;
+}
+
+.u4proj-img {
+    width: 50rem;
+}
+
+.tetris-proj {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dotfiles {
+    padding-bottom: 3em;
+}
+
+.rustOS {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -55,6 +84,8 @@ div {
 
 .proj-container {
     display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
     /* flex-direction: column; */
 }
 
@@ -63,8 +94,34 @@ div {
     flex-direction: row-reverse;
 }
 
-.start-img {}
+.rustOS-img {
+    width: 65em;
+}
 
-.end-img {
-    align-self: flex-end;
+.recto-img {
+    width: 65em;
+}
+
+.u2proj-img {
+    width: 40em;
+}
+
+.desktop-img {
+    width: 45em;
+}
+
+.u3proj-img {
+    /* align-self: flex-end; */
+    width: 55em;
+}
+
+.slide-up-fade-in {
+    opacity: 0;
+    transform: translateY(1000px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide-up-fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
 }

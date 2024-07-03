@@ -71,8 +71,8 @@ h2 {
     font-size: 2em;
 }
 
-#container > p {
-    font-size: 2.5rem;
+#container > ul {
+    font-size: 1.25rem;
     
 }
 
@@ -98,4 +98,11 @@ h2 {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+.future-plans {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    line-height: 5rem;
 }

@@ -200,7 +200,7 @@ button {
 
 .item-list {
     max-width: 800px;
-    border: teal solid;
+    border: magenta solid;
     /*Again, also temp color, TODO: MAKE SURE TO CHANGE*/
     width: 75vw;
     display: flex;

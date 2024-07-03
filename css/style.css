@@ -48,6 +48,10 @@ html {
     color: magenta;
 }
 
+a {
+    color: magenta;
+}
+
 /*  TODO: Change color to a color that works well with the background. */
 
 #about-me-header {
@@ -503,7 +507,7 @@ hr {
 
 .place-container {
     margin-left: 30rem;
-
+    margin-right: 2rem;
 }
 
 .place-container>p {
@@ -512,8 +516,11 @@ hr {
 
 }
 
+
 .linkedin {
     width: 20rem;
+    /* padding-right:  */
+    /* margin-right: 2rem; */
 }
 
 .gh-img {

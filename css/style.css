@@ -101,7 +101,9 @@ hr {
     margin-top: 9vh;
     margin-bottom: 9vh;
     width: 55vw;
+    height: 0.5rem;
     border-radius: 10vw;
+    border: none;
     /* For other browsers*/
     /* NOTE: COLOR DOESN"T FUCKING WORKK AND I DON"T UNDERSTAND WHY, STUPID BROWSER SHIT AAAAAAA This works on firefox 
 * but for some random reason, not on Chrome.;*/
@@ -419,10 +421,20 @@ hr {
     text-align: center;
 }
 
-.btn-container {
-    height: 50vh;
-    padding-left: 2rem;
+.contact-me {
     display: flex;
+    flex-direction: column;
+}
+
+.bodytext {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-container {
+    height: 75vh;
+    padding-left: 2rem;
+    /* display: flex; */
     justify-content: space-evenly;
 }
 
@@ -436,7 +448,15 @@ hr {
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    color: black;
+    /* color: black; */
+    color: #666;
+}
+
+.btn-container>textarea {
+    height: 20rem;
+    padding-top: 1rem;
+    border-radius: 20px;
+
 }
 
 
@@ -455,4 +475,39 @@ hr {
 }
 
 
+.inputs:focus {
+    border: 2px solid #ff994f;
+}
 
+.btn-container button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 2rem;
+    color: #ffff;
+    /* gap: 10px; */
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(270deg, #5796fa, #d43af0);
+    cursor: pointer;
+}
+
+#btn {
+    margin-left: 9rem;
+    width: 8rem;
+}
+
+.otherplaces {
+    display: flex;
+}
+
+.place-container {
+    margin-left: 30rem;
+
+}
+
+.place-container>p {
+    font-size: 2rem;
+    text-align: center;
+
+}

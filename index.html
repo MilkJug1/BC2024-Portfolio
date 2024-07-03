@@ -239,32 +239,42 @@
         <div class="contact-me">
             <h2>Contact Me!</h2>
             <p>If you want to reach me, please contact me!</p>
-            <div class="btn-container">
-                <input type="text" id="name" class="inputs" placeholder="Name" autocomplete='off'>
-                <input id='email' type="email" class="inputs" placeholder="johndoe@gmail.com">
-                <input id="subject" type='text' class="inputs" placeholder="Subject goes here">
-                <textarea id="message" placeholder="Your message" class="inputs" ></textarea>
-                <button id="btn">Send</button>
+            <div class="bodytext">
+                <div class="btn-container">
+                    <input type="text" id="name" class="inputs" placeholder="Name" autocomplete='off'>
+                    <input id='email' type="email" class="inputs" placeholder="johndoe@gmail.com">
+                    <input id="subject" type='text' class="inputs" placeholder="Subject goes here">
+                    <textarea id="message" placeholder="Your message" class="inputs"></textarea>
+                    <button id="btn">Send</button>
 
-                <script src="https://smtpjs.com/v3/smtp.js"></script>
-                <script>
-                    var btn = document.getElementById('btn');
-                    btn.addEventListener('click', function (e) {
-                        // e.preventDefault()
-                        var name = document.getElementById('name').value;
-                        var email = document.getElementById('email').value;
-                        var subject = document.getElementById('subject').value;
-                        var message = document.getElementById('message').value;
-                        var body = 'name: ' + name + '<br> email: ' + email + '<br> subject: ' + subject + '<br> message: ' + message;
+                    <script src="https://smtpjs.com/v2/smtp.js"></script>
+                    <script>
+                        var btn = document.getElementById('btn');
+                        btn.addEventListener('click', function (e) {
+                            // e.preventDefault()
+                            var name = document.getElementById('name').value;
+                            var email = document.getElementById('email').value;
+                            var subject = document.getElementById('subject').value;
+                            var message = document.getElementById('message').value;
+                            var body = 'name: ' + name + '<br> email: ' + email + '<br> subject: ' + subject + '<br> message: ' + message;
 
-                        Email.send({
-                            SecureToken: "3f711337-c1ba-41ad-8648-1ad980008f22",
-                            To: "michael.sagan.crawford@gmail.com", From: "michael.sagan.crawford@gmail.com",
-                            Subject: "contact message", Body: body
-                        }).then(message => alert(message));
+                            Email.send({
+                                SecureToken: "2f711337-c1ba-41ad-8648-1ad980008f22",
+                                To: "michael.sagan.crawford@gmail.com", From: "michael.sagan.crawford@gmail.com",
+                                Subject: "contact message", Body: body
+                            }).then(message => alert(message));
 
-                    })</script>
+                        })</script>
+                </div>
+                <div class="otherplaces">
+                    <div class="place-container">
+                        <p>You can find me and reach me at these other places!</p>
+                        <a href="https://www.github.com/MilkJug1"><img src="src/img/ghlogo.webp" alt=""></a>
+                            <a href="https://www.linkedin.com/in/michael-crawford-a57569311/"><img src="src/img/linkedIn.png" alt=""></a>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
     <!--  5d16b719-4486-42f3-b9db-f757666021bc-->

@@ -1,8 +1,41 @@
 @import url("future.css");
 
 
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #dda0dd;
+
+}
+
+
+#container > ul, li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #dda0dd;
+}
+
+.background{ 
+    filter: blur(5px);
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    background: linear-gradient(250deg, #5796fa, #d43af0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about-extended {
     display: flex;
+}
+
+#grid-item{
+    background-color: #533554;
+    border-radius: 20px;
 }
 
 .about-container {
@@ -12,9 +45,24 @@
     flex-direction: row;
 }
 
+.textabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin-left: 3.5rem;
+}
 
+.textabout>p {
 
-.about-container > h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+
+.about-container>h2 {
     font-size: 5em;
     /* text-align: center; */
 }
@@ -30,3 +78,7 @@
     width: 25%;
 }
 
+.fact-grid {
+    display: grid;
+
+}

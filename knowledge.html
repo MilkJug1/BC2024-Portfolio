@@ -36,8 +36,7 @@
  2. A grid(similar to how you had it in the tldraw) that has the most proficient(Has a header) and then other things start fading in, on a scroll. Maybe do a parallax? -->
 
 
-
-    <div class="knowledge">
+    <div class="page">
         <nav class="navbar">
             <div class="links">
                 <ul>
@@ -48,98 +47,130 @@
                 </ul>
             </div>
         </nav>
-        <!-- <div class="knowledge-begin"> -->
-        <!--     <div class="container" id="beginning"> -->
-        <!--         <h2>What I Know</h2> -->
-        <!--         <p>Here is most of the stuff I know, my most proficient will be in this carousel, with more infomation -->
-        <!--             down below. The other things that I also know will also be listed too.</p> -->
-        <!--     </div> -->
-        <!-- </div> -->
-        <div class="container-carousel">
-            <h2>Most Proficient</h2>
-            <div class="carousel-view">
-                <!-- List Container -->
-                <button id="prev-btn" class="prev-btn">&#8656;</button>
-                <div id="item-list" class="item-list">
-                    <!-- Items -->
-                    <img id="cpp-img" class="item" src="src/img/cpp_logo.webp" />
-                    <img id="rust-img" class="item" src="src/img/rust.png" />
-                    <img id="python-img" class="item" src="src/img/python.png" />
-                    <img id="linux-img" class="item" src="src/img/tux.png" />
-                    <img id="unreal-img" class="item" src="src/img/ue.png" />
-                    <img id="item" class="item"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vrTUU3CKbUDThpm8aZzFXdTmai6PodNfXA&s" />
-                </div>
+        <div class="knowledge">
 
-                <button id="next-btn" class="next-btn">&#8658;</button>
-
-            </div>
-            <!-- <div class="buttons"> -->
-            <!--     <!-- Left Button --> 
-            <!--     <button id="prev-btn" class="prev-btn">&#8656;</button> -->
-            <!---->
-            <!--     <!-- Right Button -->
-            <!--     <button id="next-btn" class="next-btn">&#8658;</button> -->
+            <!-- <div class="knowledge-begin"> -->
+            <!--     <div class="container" id="beginning"> -->
+            <!--         <h2>What I Know</h2> -->
+            <!--         <p>Here is most of the stuff I know, my most proficient will be in this carousel, with more infomation -->
+            <!--             down below. The other things that I also know will also be listed too.</p> -->
+            <!--     </div> -->
             <!-- </div> -->
+            <div class="container-carousel">
+                <h2>Most Proficient</h2>
+                <div class="carousel-view">
+                    <!-- List Container -->
+                    <div class="prev-container">
+                        <button id="prev-btn" class="prev-btn">&#8656;</button>
+                    </div>
+                    <div id="item-list" class="item-list">
+                        <!-- Items -->
+                        <img id="cpp-img" class="item" src="src/img/cpp_logo.webp" />
+                        <img id="rust-img" class="item" src="src/img/rust.png" />
+                        <img id="python-img" class="item" src="src/img/python.png" />
+                        <img id="linux-img" class="item" src="src/img/tux.png" />
+                        <img id="unreal-img" class="item" src="src/img/ue.png" />
+                        <img id="item" class="item"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vrTUU3CKbUDThpm8aZzFXdTmai6PodNfXA&s" />
+                    </div>
+                    <div class="next-container">
+                        <button id="next-btn" class="next-btn">&#8658;</button>
+                    </div>
+                </div>
+                <!-- <div class="buttons"> -->
+                <!--     <!-- Left Button -->
+                <!--     <button id="prev-btn" class="prev-btn">&#8656;</button> -->
+                <!---->
+                <!--     <!-- Right Button -->
+                <!--     <button id="next-btn" class="next-btn">&#8658;</button> -->
+                <!-- </div> -->
 
+            </div>
+            <div class="knowledge-grid">
+                <!--3 items. Each has pic, text, and Header-->
+
+                <div class="cpp">
+                    <div class="container">
+                        <h2>C and C++</h2>
+                        <img src="src/img/cpp_logo.webp" alt="" class="cpp-img">
+                        <p>My most used language is C/C++, i've used it for so long and have been using it off and on
+                            for
+                            the past 5 years. Contrary to what I say, C/C++ is one of my favorite languages</p>
+                    </div>
+                </div>
+
+                <div class="rust">
+                    <div class="container">
+                        <h2>Rust</h2>
+                        <img src="src/img/rust.png" alt="" class="rust-img">
+                        <p>My most recently learned language, but starting to become a language I love. To me, its very
+                            similar to C++ but feels a bit more modern, a lot of my newer projects have all dealt with
+                            Rust
+                            in some form or not. My earliest projects for this language was making an OS.</p>
+                    </div>
+                </div>
+                <div class="python">
+                    <div class="container">
+                        <h2>Python</h2>
+                        <img src="src/img/python.png" alt="" class="python-img">
+                        <p>This is a language that I have the 2nd most experience in, I've used this to write prototype
+                            applications, work on algorithms, and automate stuff on my computer. I don't really use this
+                            a lot, but when I do, it's usually doing something with automation and or something small.
+                        </p>
+                    </div>
+                </div>
+                <div class="linux">
+                    <div class="container">
+                        <h2>Linux</h2>
+                        <img src="src/img/tux.png" alt="" class="linux-img">
+                        <p>I know, not a language, but it is a tool/thing I understand the most at the moment.
+                            Currently, I
+                            use Arch Linux, in the past I've used such distros as Manjaro, Arch-Based Distros(ArcoLinux,
+                            ArchCraft, and more), and Pop OS. I've been using Linux for the past 5+ years, and have
+                            slowly
+                            stopped using Windows. I mainly use Windows now for Gaming and for when software isn't
+                            working
+                            correctly on Linux</p>
+                    </div>
+                </div>
+                <div class="unreal">
+                    <div class="container">
+                        <h2>Unreal Engine</h2>
+                        <img src="src/img/ue.png" alt="" class="unreal-img">
+                        <p>Unreal Engine was the first Game Engine I used after learning what it takes to make your own
+                            Game
+                            Framework, I made a multitude of projects, mainly all in 4.26-7 but I did learn a ton from
+                            these
+                            experiences. I used to work with some people on a project in Unreal a few years age. I've
+                            really
+                            loved using this engine for a lot of things, and I have tons of minor experience from
+                            working on
+                            it. I switched from using a Game Engine to making my own Game Framework, in a multitude of
+                            libraries(BGFX, Raylib, GLFW/SDL, and other OpenGL things. Nothing Vulkan yet :) ) </p>
+                    </div>
+                </div>
+                <div class="arduino">
+                    <div class="container">
+                        <h2>Arduino </h2>
+                        <img src="src/img/arduino.webp" class="arduino-img" alt="">
+                        <p>I love working with hardware, and the best thing about Arduino is that it allows me to do
+                            very low level things. I love using this for working with small intergrated systems. The
+                            funny thing is that I learned C++ mainly from Arduino, I work with it here and there, I do
+                            recommend seeing what I wrote in the <a
+                                href="https://github.com/MilkJug1/ArduinoSketches">ArduinoSketches</a> repo.</p>
+                    </div>
+                </div>
+                <div class="raspberry">
+                    <div class="container">
+                        <h2>Raspberry Pi</h2>
+                        <img src="src/img/raspberrypi.webp" class="raspberry-img" alt="">
+                        <p>I've been using Raspberry Pi's for the past couple of years and use it to automate things I
+                            want and also to host servers I need. Just recently I used my Raspberry Pi to help use my
+                            LED Lights that I have in my room, making my Raspbery Pi talk to the LED controller. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="knowledge-grid">
-            <!--3 items. Each has pic, text, and Header-->
-
-            <div class="cpp">
-                <div class="container">
-                    <h2>C and C++</h2>
-                    <img src="src/img/cpp_logo.webp" alt="" class="cpp-img">
-                    <p>My most used language is C/C++, i've used it for so long and have been using it off and on for
-                        the past 5 years. Contrary to what I say, C/C++ is one of my favorite languages</p>
-                </div>
-            </div>
-
-            <div class="rust">
-                <div class="container">
-                    <h2>Rust</h2>
-                    <img src="src/img/rust.png" alt="" class="rust-img">
-                    <p>My most recently learned language, but starting to become a language I love. To me, its very
-                        similar to C++ but feels a bit more modern, a lot of my newer projects have all dealt with Rust
-                        in some form or not. My earliest projects for this language was making an OS.</p>
-                </div>
-            </div>
-            <div class="python">
-                <div class="container">
-                    <h2>Python</h2>
-                    <img src="src/img/python.png" alt="" class="python-img">
-                    <p>My most used language is C/C++, i've used it for so long and have been using it off and on for
-                        the past 5 years. Contrary to what I say, C/C++ is one of my favorite languages</p>
-                </div>
-            </div>
-            <div class="linux">
-                <div class="container">
-                    <h2>Linux</h2>
-                    <img src="src/img/tux.png" alt="" class="linux-img">
-                    <p>I know, not a language, but it is a tool/thing I understand the most at the moment. Currently, I
-                        use Arch Linux, in the past I've used such distros as Manjaro, Arch-Based Distros(ArcoLinux,
-                        ArchCraft, and more), and Pop OS. I've been using Linux for the past 5+ years, and have slowly
-                        stopped using Windows. I mainly use Windows now for Gaming and for when software isn't working
-                        correctly on Linux</p>
-                </div>
-            </div>
-            <div class="unreal">
-                <div class="container">
-                    <h2>Unreal Engine</h2>
-                    <img src="src/img/ue.png" alt="" class="unreal-img">
-                    <p>Unreal Engine was the first Game Engine I used after learning what it takes to make your own Game
-                        Framework, I made a multitude of projects, mainly all in 4.26-7 but I did learn a ton from these
-                        experiences. I used to work with some people on a project in Unreal a few years age. I've really
-                        loved using this engine for a lot of things, and I have tons of minor experience from working on
-                        it. I switched from using a Game Engine to making my own Game Framework, in a multitude of
-                        libraries(BGFX, Raylib, GLFW/SDL, and other OpenGL things. Nothing Vulkan yet :) ) </p>
-                </div>
-            </div>
-
-        </div>
-
     </div>
-
-
     <script defer src="js/main.js"></script>
 </body>

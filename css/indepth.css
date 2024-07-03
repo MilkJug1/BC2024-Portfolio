@@ -13,13 +13,19 @@
 }
 
 
+
 .about-container > h2 {
     font-size: 5em;
+    /* text-align: center; */
+}
+
+.about-extended h2 {
     text-align: center;
 }
 
 
 .me {
+    margin-top: 10rem;
     clip-path: circle();
     width: 25%;
 }

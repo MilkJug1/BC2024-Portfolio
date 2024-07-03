@@ -419,24 +419,26 @@ hr {
     text-align: center;
 }
 
-input {
-    border-radius: 25px;
-    align-self: center;
+.btn-container {
+    height: 50vh;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#name {
-    align-self: center;
-    width: 50em;
-    height: 3em;
-    font-size: 1.25em;
-    border-radius: 25px;
+.inputs {
+    /* background-color: grey; */
+    border-radius: 50px;
+    /* align-self: center; */
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
 }
 
-#email {
-    width: 50em;
-    height: 3em;
-    font-size: 1.25em;
-}
 
 .contact-me>p {
     text-align: center;
@@ -452,9 +454,5 @@ input {
     -webkit-text-fill-color: transparent;
 }
 
-#subject {
-    width: 50em;
-    height: 3em;
-    font-size: 1.25em;
 
-}
+
